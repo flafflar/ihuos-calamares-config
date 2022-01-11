@@ -1,0 +1,46 @@
+componentName:  ihuos
+
+# This is an official installer, so there is no need to specify that this is a
+# Calamares installer
+welcomeStyleCalamares:   false
+
+welcomeExpandingLogo:   true
+
+windowExpanding:    normal
+windowSize: 800px,520px
+windowPlacement: center
+
+sidebar: widget,left
+navigation: widget,bottom
+
+strings:
+    productName:         IHU OS
+    shortProductName:    IHU OS
+    version:             2022.0
+    shortVersion:        2022.0
+    versionedName:       IHU OS GNU/Linux 2022.0 Beta
+    shortVersionedName:  IHU OS 2022.0
+    bootloaderEntryName: IHU OS
+    productUrl:          https://cs.ihu.gr/
+    supportUrl:          https://github.com/calamares/calamares/wiki
+    knownIssuesUrl:      https://github.com/calamares/calamares/issues
+    releaseNotesUrl:     https://calamares.io/news/
+    donateUrl:           https://kde.org/community/donations/index.php
+
+images:
+    productBanner:       "banner.png"
+    productIcon:         "logo.png"
+    productLogo:         "logo.png"
+    productWelcome:      "languages.png"
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"
+   sidebarTextHighlight: "#D35400"
+
+slideshow:               "show.qml"
+slideshowAPI: 2
+
+uploadServer :
+    type :    "none"
