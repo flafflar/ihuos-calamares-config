@@ -22,10 +22,10 @@ strings:
     shortVersionedName:  IHU OS 2022.0
     bootloaderEntryName: IHU OS
     productUrl:          https://cs.ihu.gr/
-    supportUrl:          https://github.com/calamares/calamares/wiki
-    knownIssuesUrl:      https://github.com/calamares/calamares/issues
-    releaseNotesUrl:     https://calamares.io/news/
-    donateUrl:           https://kde.org/community/donations/index.php
+    supportUrl:          ""
+    knownIssuesUrl:      ""
+    releaseNotesUrl:     ""
+    donateUrl:           ""
 
 images:
     productBanner:       "banner.png"
