@@ -5,25 +5,16 @@ Presentation
 {
     id: presentation
 
-    function nextSlide() {
-        console.log("QML Component (default slideshow) Next slide");
-        presentation.goToNextSlide();
-    }
-
-    Timer {
-        id: advanceTimer
-        interval: 1000
-        running: presentation.activatedInCalamares
-        repeat: true
-        onTriggered: nextSlide()
-    }
-
     Slide {
-        centeredText: qsTr("TODO")
-    }
-
-    Slide {
-        centeredText: qsTr("TODO")
+        anchors.fill: parent
+        Image {
+            source: "slide.png"
+            width: presentation.width
+            height: presentation.height
+            fillMode: Image.PreserveAspectCrop
+            anchors.centerIn: parent
+            anchors.fill: parent
+        }
     }
 
     // When this slideshow is loaded as a V1 slideshow, only
